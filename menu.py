@@ -7,5 +7,8 @@ while opcion != 3:
     print("3. salir")
 
     opcion=int(input("escriba la opcion"))
+    if(opcion==2):
+        print("Hasta luego")
+    
 else:
     print("termino")
