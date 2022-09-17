@@ -9,5 +9,12 @@ while opcion != 3:
     opcion=int(input("escriba la opcion"))
    
     
+
+    if(opcion == 1):
+        print("Hola, ¿como estas? ")
+        break
+    elif(opcion==2):
+        print("Hasta luego")
 else:
     print("termino")
+
